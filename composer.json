@@ -1,0 +1,10 @@
+{
+    "name": "laureagrech/nutrileaks",
+    "description": "nutriments et bienfaits",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

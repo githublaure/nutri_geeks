@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item, .benefit {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.benefit {
+    background-color: #add8e6;
+}
+
+.drag-enter {
+    background-color: #90ee90;
+}
+
+.drag-wrong {
+    background-color: #ffcccb;
+}
+
+.admin-link {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.admin-link:hover {
+    text-decoration: underline;
+}
+
+.logout-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.logout-link:hover {
+    text-decoration: underline;
+}
+
+.game-controls {
+    margin-top: 20px;
+}
+
+button.delete-button {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button.delete-button:hover {
+    background-color: darkred;
+}
+
+button#restart-game {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button#restart-game:hover {
+    background-color: darkgreen;
+}

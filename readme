@@ -1,0 +1,18 @@
+mon_site/
+├── .env
+├── .gitignore
+├── add_food.html
+├── config.js
+├── config.production.php
+├── delete_food.php
+├── get_best_score.php
+├── get_foods.php
+├── index.php
+├── login.php
+├── logout.php
+├── save_score.php
+├── script.js
+├── style.css
+├── vendor/
+│   └── autoload.php
+└── composer.json

@@ -1,0 +1,12 @@
+# Ignorer les fichiers d'environnement
+.env
+.env.production
+
+# Ignorer le dossier des dépendances de Composer
+/vendor/
+
+# Ignorer le fichier de verrouillage de Composer
+/composer.lock
+
+# Ignorer le script de hachage des mots de passe
+hash_password.php
